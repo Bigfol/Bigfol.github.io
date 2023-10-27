@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.3e3c15d0.css",
-    "main.js": "/static/js/main.6aec6ea4.js",
+    "main.js": "/static/js/main.ae0726e6.js",
     "static/media/SuperWebcomicBros_Rusbyyakustick_-Regular_0.ttf": "/static/media/SuperWebcomicBros_Rusbyyakustick_-Regular_0.8adfcb4a7ac51f2a5ce1.ttf",
     "index.html": "/index.html",
     "main.3e3c15d0.css.map": "/static/css/main.3e3c15d0.css.map",
-    "main.6aec6ea4.js.map": "/static/js/main.6aec6ea4.js.map"
+    "main.ae0726e6.js.map": "/static/js/main.ae0726e6.js.map"
   },
   "entrypoints": [
     "static/css/main.3e3c15d0.css",
-    "static/js/main.6aec6ea4.js"
+    "static/js/main.ae0726e6.js"
   ]
 }
