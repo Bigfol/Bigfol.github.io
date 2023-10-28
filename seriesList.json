@@ -2,7 +2,8 @@
   {
     "id": 1,
     "url": "https://player.vimeo.com/video/878913364",
-    "previewImageUrl": "img/preview-episide-1.webp",
+    "previewImageUrl": "img/preview-episode-1.webp",
+    "imageSlider": "img/slide-episide-1.webp",
     "title": "НОЧЬ ЯЩЕРА",
     "description": "В Нью-Йорке рабочего метро похищает гигантская ящерица. Питеру Паркеру предстоит выяснить, откуда она взялась и как с этим связан доктор Курт Коннорс.",
     "release": true,
@@ -11,7 +12,8 @@
   {
     "id": 2,
     "url": "https://player.vimeo.com/video/878916013",
-    "previewImageUrl": "img/preview-episide-2.webp",
+    "previewImageUrl": "img/preview-episode-2.webp",
+    "imageSlider": "img/slide-episide-2.webp",
     "title": "ЖАЛО СКОРПИОНА",
     "description": "Джей Джона Джеймисон мечтает покончить с людьми в масках, которые мнят себя выше закона. Он решается на создание достойного противника для Человека-Паука в лице Скорпиона. Но, к сожалению для Джоны, всё идёт не совсем по плану.",
     "release": true,
@@ -19,7 +21,8 @@
   },
   {
     "id": 3,
-    "previewImageUrl": "img/preview-episide-3.webp",
+    "previewImageUrl": "img/preview-episode-3.webp",
+    "imageSlider": "img/slide-episide-3.webp",
     "title": "ИСТРЕБИТЕЛЬ ПАУКОВ",
     "description": "Спенсер Смайт вместе со своим сыном Алистером создают роботов по заказу Нормана Осборна. Цель роботов - поймать Человека-Паука. Но вот мотивы у людей, стоящих за всем этим, далеко не так однозначны.",
     "release": false,
@@ -27,7 +30,7 @@
   },
   {
     "id": 4,
-    "previewImageUrl": "img/preview-episide-3.webp",
+    "imageSlider": "img/slide-episide-3.webp",
     "title": "ВОЗВРАЩЕНИЕ ИСТРЕБИТЕЛЕЙ ПАУКОВ",
     "description": "Алистер Смайт создаёт новых истребителей пауков, чтобы отомстить своим врагам. Теперь Человеку-Пауку придётся сразится сразу с несколькими роботами, попутно спасая всех, кто так или иначе замешан в этой истории.",
     "release": false,
@@ -35,7 +38,7 @@
   },
   {
     "id": 5,
-    "previewImageUrl": "img/preview-episide-3.webp",
+    "imageSlider": "img/slide-episide-3.webp",
     "title": "ДОКТОР ОСЬМИНОГ: ВООРУЖЁН И ОПАСЕН",
     "description": "Фелицию Харди похищает бывший учитель Питера Паркера - Отто Октавиус, который после неудачного эксперимента превратился в Доктора Осьминога.",
     "release": false,
