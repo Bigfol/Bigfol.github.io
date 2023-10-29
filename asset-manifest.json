@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.bdee1517.css",
-    "main.js": "/static/js/main.1fac6153.js",
+    "main.css": "/static/css/main.310ec033.css",
+    "main.js": "/static/js/main.9d7b05fa.js",
     "static/media/SuperWebcomicBros_Rusbyyakustick_-Regular_0.ttf": "/static/media/SuperWebcomicBros_Rusbyyakustick_-Regular_0.8adfcb4a7ac51f2a5ce1.ttf",
     "index.html": "/index.html",
     "static/media/pagionation-thumb.webp": "/static/media/pagionation-thumb.07576eb5981de8cc1a41.webp",
     "static/media/pagionation-thumb-active.webp": "/static/media/pagionation-thumb-active.b829cecccd860aa5b605.webp",
-    "main.bdee1517.css.map": "/static/css/main.bdee1517.css.map",
-    "main.1fac6153.js.map": "/static/js/main.1fac6153.js.map"
+    "main.310ec033.css.map": "/static/css/main.310ec033.css.map",
+    "main.9d7b05fa.js.map": "/static/js/main.9d7b05fa.js.map"
   },
   "entrypoints": [
-    "static/css/main.bdee1517.css",
-    "static/js/main.1fac6153.js"
+    "static/css/main.310ec033.css",
+    "static/js/main.9d7b05fa.js"
   ]
 }
