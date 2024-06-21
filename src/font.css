@@ -1,0 +1,6 @@
+/* File: font.css */
+@font-face {
+  font-family: "SuperWebcomicBros";
+  src: local("SuperWebcomicBros"),
+    url("./fonts/SuperWebcomicBros_Rusbyyakustick_-Regular_0.ttf") format("truetype");
+}

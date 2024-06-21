@@ -1,13 +1,176 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: SuperWebcomicBros;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.image-swiper-button-next {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  border-radius: 100%;
+}
+
+.slider-timeline-track-0 {
+  @apply h-1 bg-blue-600;
+}
+
+.slider-timeline-track-1 {
+  @apply h-1 bg-red-600;
+}
+
+.slider-timeline-track-2 {
+  @apply h-1 bg-white;
+}
+
+.slider-timelime-thumb-0 {
+  @apply w-2 h-2 rounded-full bg-red-600;
+}
+
+.slider-timelime-thumb-1 {
+  @apply hidden;
+}
+
+.pageTextureOverlay {
+  @apply bg-blend-multiply -z-50 pointer-events-none bg-cover right-0 left-0 bottom-0 top-0 absolute;
+}
+
+.heroSection-elem {
+  position: relative;
+}
+
+.heroSection {
+  display: grid;
+  grid-template-areas:
+    "a a"
+    "b c"
+    "d d";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 125px 150px 60px;
+}
+
+.heroSection-a {
+  display: none;
+  grid-area: a;
+}
+
+.heroSection-a-mobile {
+  grid-area: a;
+  display: block;
+}
+
+.heroSection-b {
+  grid-area: b;
+}
+
+.heroSection-c {
+  grid-area: c;
+}
+
+.heroSection-d {
+  grid-area: d;
+}
+
+.heroSection-d > img {
+  @apply absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2;
+}
+
+.heroSection-c > img {
+  @apply absolute top-1/2 left-4 -translate-y-1/2;
+}
+
+.heroSection-b > img {
+  @apply absolute top-1/2 right-4 -translate-y-1/2;
+}
+
+.heroSection-a-mobile > img {
+  @apply absolute bottom-0 left-1/2 -translate-x-1/2;
+}
+@media (min-width: 400px) {
+  .heroSection {
+    grid-template-rows: 200px 250px 100px;
+  }
+}
+
+@media (min-width: 550px) {
+  .heroSection {
+    grid-template-rows: 200px 300px 100px;
+  }
+}
+
+@media (min-width: 760px) {
+  .heroSection {
+    grid-template-rows: 200px 400px 210px;
+  }
+}
+
+@media (min-width: 1800px) {
+  .heroSection-elem {
+    height: 255px;
+  }
+
+  .heroSection-elem > img {
+    @apply transform-none;
+  }
+
+  .heroSection-a-mobile {
+    display: none;
+  }
+
+  .heroSection-a {
+    display: block;
+  }
+
+  .heroSection-d > img {
+    @apply absolute bottom-0 left-auto top-auto right-[10%];
+  }
+
+  .heroSection-c > img {
+    @apply absolute bottom-0 top-auto left-[4%];
+  }
+
+  .heroSection-b > img {
+    @apply absolute top-[40%] left-auto -right-[13%];
+  }
+
+  .heroSection-a > img {
+    @apply absolute w-[1208px] left-auto max-w-none bottom-0 right-0;
+  }
+
+  .heroSection {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      "b a a c"
+      "b d d d";
+  }
+}
+
+.swiper-pagination-bullets {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.swiper-pagination-bullet {
+  background-image: url('./assets/img/pagionation-thumb.webp');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 28px;
+  height: 14px;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-image: url('./assets/img/pagionation-thumb-active.webp');
+}
+
+.custom-swiper-container .swiper {
+  @apply pt-9 md:pt-0
 }
