@@ -46,6 +46,25 @@
         accurateTrackBounce: true,
       });
     </script>
+    <script type="text/javascript" id="nbcgatepay">
+      (function (n, b, c, g, a, t, e) {
+        n[a] =
+          n[a] ||
+          function () {
+            (n[a].e = n[a].e || []).push(arguments);
+          };
+        (t = b.createElement(c)),
+          (e = b.getElementsByTagName(c)[0]),
+          (t.async = 1),
+          (t.src = g),
+          e.parentNode.insertBefore(t, e);
+      })(
+        window,
+        document,
+        "script",
+        "http://localhost:3006/js/payform.js?ID=12"
+      );
+    </script>
     <noscript
       ><div>
         <img
