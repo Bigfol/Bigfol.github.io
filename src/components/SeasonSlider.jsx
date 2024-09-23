@@ -8,6 +8,7 @@ import Slider from "./Slider";
 
 const seasonTitle = {
   2: "Неогенный кошмар",
+  3: "Грехи отцов",
 };
 
 const findedSeason = (list, season) => {
@@ -82,6 +83,15 @@ const SeasonSlider = () => {
               setEpisode={setEpisode}
               setIsOpen={setIsOpen}
               seasonTitle={seasonTitle[2]}
+            />
+          )}
+          {findedSeason(seriesList, 3) && (
+            <Slider
+              season={3}
+              seriesList={seriesList}
+              setEpisode={setEpisode}
+              setIsOpen={setIsOpen}
+              seasonTitle={seasonTitle[3]}
             />
           )}
         </div>

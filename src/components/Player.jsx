@@ -367,7 +367,9 @@ const Player = forwardRef(({ seriesList, setIsOpen }, ref) => {
         <div>
           <div
             className="absolute w-full h-full bg-contain bg-center bg-no-repeat"
-            style={{ backgroundImage: `url(${episode.previewImageUrl})` }}
+            style={{
+              backgroundImage: `url(content/previews/${episode.season}/${episode.previewImageUrl})`,
+            }}
           />
           <button
             className="absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 cursor-pointer"
@@ -425,7 +427,12 @@ const Player = forwardRef(({ seriesList, setIsOpen }, ref) => {
                 onClick={() => handleNextEpisode(nextEpisode())}
               >
                 <div className="relative group">
-                  <img src={nextEpisode().previewImageUrl} alt="preview" />
+                  <img
+                    src={`content/previews/${nextEpisode().season}/${
+                      nextEpisode().previewImageUrl
+                    }`}
+                    alt="preview"
+                  />
                 </div>
                 <div className="text-xs md:text-base mt-2 flex items-center md:gap-3">
                   <p>Следующий эпизод</p>
@@ -445,7 +452,12 @@ const Player = forwardRef(({ seriesList, setIsOpen }, ref) => {
                 onClick={() => handleNextEpisode(prevEpisode())}
               >
                 <div className="relative group">
-                  <img src={prevEpisode().previewImageUrl} alt="preview" />
+                  <img
+                    src={`content/previews/${prevEpisode().season}/${
+                      prevEpisode().previewImageUrl
+                    }`}
+                    alt="preview"
+                  />
                 </div>
                 <div className="text-xs md:text-base mt-2 flex items-center gap-1">
                   <img

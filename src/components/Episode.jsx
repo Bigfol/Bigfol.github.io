@@ -17,7 +17,11 @@ const Episode = ({ item, selectEpisode }) => {
           onMouseEnter={() => setIsHoverEpisode(true)}
           onMouseLeave={() => setIsHoverEpisode(false)}
         >
-          <img src={item.imageSlider} alt={`preview-${item.id}`} />
+          <img
+            src={`content/slider/${item.season}/${item.imageSlider}`}
+            loading="lazy"
+            alt={`preview-${item.id}`}
+          />
           <Transition
             as={Fragment}
             show={item.release && isHoverEpisode}
@@ -29,6 +33,7 @@ const Episode = ({ item, selectEpisode }) => {
             leaveTo="opacity-0 scale-95"
           >
             <img
+              loading="lazy"
               src="img/play-player.webp"
               alt="play btn"
               className="w-[100px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
